@@ -1,0 +1,1 @@
+64 bytes from 54.239.19.238: icmp_seq=1 ttl=237 time=24.2 ms

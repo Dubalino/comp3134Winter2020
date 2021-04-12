@@ -1,0 +1,42 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap 51.79.82.168
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-12 21:48 UTC
+Nmap scan report for system15.ungrounded.net (51.79.82.168)
+Host is up (0.0076s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 15.89 seconds
+
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 3000 51.79.82.168
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-12 21:50 UTC
+Nmap scan report for system15.ungrounded.net (51.79.82.168)
+Host is up (0.0076s latency).
+
+PORT     STATE    SERVICE
+3000/tcp filtered ppp
+
+Nmap done: 1 IP address (1 host up) scanned in 11.26 seconds
+
+oot@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -p 3000-8080 51.79.82.168
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-12 21:51 UTC
+Nmap scan report for system15.ungrounded.net (51.79.82.168)
+Host is up (0.0073s latency).
+All 5081 scanned ports on system15.ungrounded.net (51.79.82.168) are filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 24.72 seconds
+
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# nmap -F 51.79.82.168
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-04-12 21:52 UTC
+Nmap scan report for system15.ungrounded.net (51.79.82.168)
+Host is up (0.0077s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 12.88 seconds
+
