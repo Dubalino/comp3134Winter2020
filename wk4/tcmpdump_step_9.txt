@@ -1,0 +1,11 @@
+22:47:11.033371 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4164612, win 4163, length 0
+22:47:11.033492 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4166652, win 4163, length 0
+22:47:11.033492 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4168692, win 4163, length 0
+22:47:11.033492 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4169916, win 4158, length 0
+22:47:11.033492 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [P.], seq 2557:2593, ack 4169916, win 4158, length 36
+22:47:11.033492 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4170120, win 4157, options [nop,nop,sack 1 {4171572:4173024}], length 0
+22:47:11.033524 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 4170120, win 4157, options [nop,nop,sack 2 {4173076:4173432}{4171572:4173024}], length 0
+^C
+22122 packets captured
+22131 packets received by filter
+5 packets dropped by kernel

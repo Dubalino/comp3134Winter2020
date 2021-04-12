@@ -1,0 +1,10 @@
+9.dsl.bell.ca.64015: Flags [P.], seq 85818712:85818924, ack 52561, win 501, length 212
+22:42:05.051455 IP 165.227.35.201.ssh > bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015: Flags [P.], seq 85818924:85819136, ack 52561, win 501, length 212
+22:42:05.051501 IP 165.227.35.201.ssh > bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015: Flags [P.], seq 85819136:85819348, ack 52561, win 501, length 212
+22:42:05.077605 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [.], ack 85797516, win 511, length 0
+22:42:05.077606 IP bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015 > 165.227.35.201.ssh: Flags [P.], seq 52561:52597, ack 85797516, win 511, length 36
+22:42:05.077668 IP 165.227.35.201.ssh > bras-base-toroon1016w-grc-23-184-148-159-239.dsl.bell.ca.64015: Flags [P.], seq 85819348:85819560, ack 52561, win 501, length 212
+^C
+443596 packets captured
+443721 packets received by filter
+125 packets dropped by kernel
