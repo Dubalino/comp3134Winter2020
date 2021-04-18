@@ -1,0 +1,15 @@
+root@comp3134-kevin:~# ufw allow 2222/tcp
+Rule added
+Rule added (v6)
+
+
+root@comp3134-kevin:~# firewall-cmd --permanent --zone=public --add-port=2222/tcp
+success
+root@comp3134-kevin:~# firewall-cmd --reload
+success
+
+
+root@comp3134-kevin:~# service ssh restart
+
+
+$ ssh -p 2222 root@138.197.151.44
