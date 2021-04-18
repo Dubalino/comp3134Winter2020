@@ -1,0 +1,23 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# hping3 178.128.237.247 -c 10000 --flood
+HPING 178.128.237.247 (eth0 178.128.237.247): NO FLAGS are set, 40 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- 178.128.237.247 hping statistic ---
+3467215 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# hping3 -2 178.128.237.247 -c 9000 --flood
+HPING 178.128.237.247 (eth0 178.128.237.247): udp mode set, 28 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- 178.128.237.247 hping statistic ---
+918109 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms
+
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:/var/www/html# hping3 -1 178.128.237.247 -c 11000 --flood
+HPING 178.128.237.247 (eth0 178.128.237.247): icmp mode set, 28 headers + 0 data bytes
+hping in flood mode, no replies will be shown
+^C
+--- 178.128.237.247 hping statistic ---
+1091189 packets transmitted, 0 packets received, 100% packet loss
+round-trip min/avg/max = 0.0/0.0/0.0 ms

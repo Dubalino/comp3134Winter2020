@@ -1,0 +1,3 @@
+broke library down into an array
+
+shows sensitive information 
