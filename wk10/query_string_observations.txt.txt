@@ -1,0 +1,4 @@
+1) Shows word suggestions
+2) it would show the definition
+3) Just shows hello
+4) Term cannot be found
